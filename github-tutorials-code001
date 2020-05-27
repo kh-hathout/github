@@ -1,1 +1,194 @@
 
+Location: /My project 2/Files
+git init
+
+Results : nothing
+
+
+Show hidden file
+
+result
+This folder keep all your project history
+
+
+Create two file
+
+git status
+
+results
+
+git add [add your file name]
+git add file\1.txt
+
+results
+
+Add all files with .txt extention
+git add *.txt
+
+
+Add all files 
+git add .
+
+Before add comment you should add your git information
+git config --global user.email info@kh-hathout.org
+
+git config --global user.name kh-hathout
+
+
+git commit
+
+
+You should click [i] from keyboard to insert data
+[#] any text after # not display in your comment
+
+
+
+To save click [ESC]
+:wq and then click [enter]
+
+Open any file
+
+
+Add any text
+
+And then right [git status]
+You will see the changes without comment
+
+
+git add .
+
+
+add new comment
+git commit -m “add new line”
+This commend is the fast more than git commit
+
+You can add new line now 
+And then type [git status] to know if you have any changes must put comment for it
+
+
+git diff
+To see all your changes
+
+
+git stash
+To undo the last comment
+Or remove the last comment
+
+
+
+git log
+
+Results
+
+
+Part 2 : remote for github
+
+
+
+git remote add origin [URL repo]
+Now you have a connection between file in local and repo
+
+
+
+git push -u origin master
+origin = نقطة البداية الخاصة بنا
+Master = Branch
+
+
+
+
+
+
+
+Another programmer need to work with the process owner
+Create new folder called [new repo]
+
+Enter in this folder by terminal
+
+
+git clone [URL repo]
+
+The same repo in github
+
+
+Enter in the folder by terminal 
+
+You can type [get log] to see all changes
+No we have to laptop
+
+
+Cycle github [Push] = I’m developer 1
+Type in file [I’m developer 1]
+
+git status
+git status like save as or refresh after add anything you should type this code
+ 
+
+
+git add .
+
+
+git commit -m “add new developer”
+
+git status 
+git push
+Everything up-to-date
+
+
+Referash 
+
+
+Cycle github [Pull] = I’m developer 2
+git pull 
+You should put the branch if you have more than one
+git pull [<options>] [<repository> [<refspec>…​]]
+git pull origin master
+git pull origin 11.0 for example
+
+
+Cycle github [Push] = I’m developer 2
+Type in file [I’m developer 2]
+
+In the same time developer 1 made changes
+
+
+I want to coordinate between 2 developer in the same time
+Each developer can’t see the changes made by another person
+
+In the case the developers should connect with us to discuss about Who is the person with the most important information in the code? And the make git push before another person
+git status
+git status like save as or refresh after add anything you should type this code
+ 
+
+
+git add .
+
+
+git commit -m “add new developer”
+
+git status
+git pull 
+git push
+Everything up-to-date
+
+Error if we push before pull
+يجب عند أجراء تعديلات من طرف ثاني أن يقوم بسحب التعديلات من السيرفر ثم يقوم بإجراء التعديلات ﻻن النظام سوف يرفض
+
+Important - Add commit pull and then push
+
+Ask about changes is important or not
+:wq and then click [enter]
+
+
+git push
+قاعدة عامة قبل ما أعمل push ﻻزم أعمل pull 
+
+Referash 
+
+
+
+Software show tree map for your project
+
+
+
+
