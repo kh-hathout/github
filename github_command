@@ -1,70 +1,62 @@
 URL: https://docs.google.com/document/d/1kIjRXK9WA1xW8boPJmvssU9AoLiESAqpOj5zJ_1Cgzs/edit?usp=sharing
 
-Local command
+Part01: Local 
 =============
 ---------------------------
 git init
 ---------------------------
+###########################
 ---------------------------
 git status
 ---------------------------
+
+###########################
+---------------------------
 git add .
-
-
-Before add comment you should add your git information
-git config --global user.email info@kh-hathout.org
-git config --global user.name kh-hathout
-
-
+---------------------------
+###########################
+###########################
+---------------------------
 git commit
-
 
 You should click [i] from keyboard to insert data
 [#] any text after # not display in your comment
-
-
-
 To save click [ESC]
 :wq and then click [enter]
-
-Open any file
-
-
-Add any text
-
-And then right [git status]
-You will see the changes without comment
-
-
-git add .
-
-
+---------------------------
+###########################
+---------------------------
+git diff
+To see all your changes
+---------------------------
+###########################
+---------------------------
 add new comment
 git commit -m “add new line”
 This commend is the fast more than git commit
 
 You can add new line now 
 And then type [git status] to know if you have any changes must put comment for it
-
-
-git diff
-To see all your changes
-
-
+---------------------------
+###########################
+---------------------------
 git stash
 To undo the last comment
 Or remove the last comment
-
-
-
+---------------------------
+###########################
+---------------------------
 git log
+---------------------------
+###########################
 
-Results
+---------------------------
+Template
+---------------------------
+###########################
 
-
-Part 2 : remote for github
-
-
+Part02: remote 
+=============
 
 git remote add origin [URL repo]
 Now you have a connection between file in local and repo
