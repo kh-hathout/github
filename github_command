@@ -69,7 +69,12 @@ Now you have a connection between file in local and repo
 ###########################
 ###########################
 ---------------------------
+Important - Add commit pull and then push
 git push -u origin master
+
+kh-hathout
+khgithub83
+
 origin = نقطة البداية الخاصة بنا
 Master = Branch
 ---------------------------
