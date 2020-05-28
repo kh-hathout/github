@@ -33,7 +33,7 @@ To see all your changes
 ###########################
 ---------------------------
 add new comment
-git commit -m “add new line”
+git commit -m "add 6 photos"
 This commend is the fast more than git commit
 
 You can add new line now 
