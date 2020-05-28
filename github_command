@@ -63,6 +63,7 @@ Part02: remote
 ###########################
 ---------------------------
 git remote add origin [URL repo]
+git remote add origin https://github.com/kh-hathout/Workinstruction.git
 Now you have a connection between file in local and repo
 ---------------------------
 ###########################
