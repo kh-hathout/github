@@ -1,37 +1,18 @@
 URL: https://docs.google.com/document/d/1kIjRXK9WA1xW8boPJmvssU9AoLiESAqpOj5zJ_1Cgzs/edit?usp=sharing
-Location: /My project 2/Files
+
+Local command
+=============
+---------------------------
 git init
-
-Results : nothing
-
-
-Show hidden file
-
-result
-This folder keep all your project history
-
-
-Create two file
-
+---------------------------
+---------------------------
 git status
-
-results
-
-git add [add your file name]
-git add file\1.txt
-
-results
-
-Add all files with .txt extention
-git add *.txt
-
-
-Add all files 
+---------------------------
 git add .
+
 
 Before add comment you should add your git information
 git config --global user.email info@kh-hathout.org
-
 git config --global user.name kh-hathout
 
 
