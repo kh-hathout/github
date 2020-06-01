@@ -4,3 +4,23 @@ repo URL:
 https://github.com/kh-hathout/github.git
 template
 pix001: ??????????
+- you should choose the cloud server 
+cloud server is
+138.68.242.121
+- access server by terminal
+ssh root@138.68.242.121
+202005256tn]]u3&TYy(Z_a4
+- open filezilla
+pix002- from filezilla open /odoo/custom/addons
+- open terminal and type:
+cd /odoo/custom/addons
+pix003-
+root@ubuntu-s-1vcpu-1gb-nyc1-01:/odoo/custom/addons# git config --global user.email info@kh-hathout.org
+root@ubuntu-s-1vcpu-1gb-nyc1-01:/odoo/custom/addons# git config --global user.name kh-hathout
+git remote add origin https://github.com/kh-hathout/DX2z-j8LTy-8n3-sY9--.git
+git checkout -b master
+git pull origin 11.0
+- updata odoo app
+http://134.122.17.144:8069/web/database/manager
+- pix 04 - update odoo apps
+
