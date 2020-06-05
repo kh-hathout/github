@@ -85,6 +85,9 @@ git pull origin odoo11
 git pull origin apach2
 git pull origin 11.0
 
+git checkout -b "YOURBRANCHNAME"
+
+
 kh-hathout
 khgithub83
 
