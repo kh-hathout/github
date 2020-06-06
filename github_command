@@ -201,6 +201,16 @@ Referash
 
 Software show tree map for your project
 
+===============================
+
+git remote add repository-name git@github.com:yourname/repository-name.git
+git subtree add --prefix=subfolder/path/you/want repository-name master
+
+
+git remote add repository-name https://github.com/kh-hathout/odoo.git
+git subtree add --prefix=odoo/odoo/addons/ repository-name 11.0
+
+
 
 
 
